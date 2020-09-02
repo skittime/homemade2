@@ -5,12 +5,16 @@ import java.util.stream.IntStream;
 
 public class Make2 {
     public Make2(){
-        int i = 0;
+
         Scanner number = new Scanner(System.in);
         System.out.println("Введите трехзначное число");
-        int [] array = new int[3];
-        array[i]= number.nextInt();
-        System.out.print(IntStream.of(0, 1, 2).map(j -> array[j]).sum());
+        int summ = number.nextInt();
+        int result = 0;
+        while(summ != 0){
+            result += (summ % 10);
+            summ/=10;
+        }
+        System.out.println("Результат сложения " + result);
     }
 
 
