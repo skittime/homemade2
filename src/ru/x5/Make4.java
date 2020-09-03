@@ -17,7 +17,7 @@ public class Make4 {
             System.out.println("Ответ " + numbs);
 
         }
-        else if (numbs == 0) {
+        else {
             numbs = 10;
             System.out.println("Ответ " + numbs);
         }
