@@ -21,7 +21,7 @@ public class Make8 {
             if (array[i] > 0){
                 summ = array[i] + summ;
             }
-        System.out.println("Сумма полож " + summ);
+        System.out.println("Сумма положительных = " + summ);
 
         for (int i=0; i<array.length;i++)
             if (array[i] < 0)
@@ -31,7 +31,7 @@ public class Make8 {
                 if (pos == 0) {
                     g = array[i] + g;}
             }
-        System.out.println("четные отриц " + g);
+        System.out.println("Сумма четных отрицательных = " + g);
 
         for (int i=0; i<array.length;i++)
             if (array[i] >0)
@@ -39,7 +39,7 @@ public class Make8 {
                 arrayList.add("array[i]");
                 size = arrayList.size();
             }
-        System.out.println("Количество положительных " + size);
+        System.out.println("Количество положительных = " + size);
         for (int i=0; i<array.length;i++)
             if (array[i] < 0) {
                 arrayList1.add("array[i]");
@@ -47,7 +47,7 @@ public class Make8 {
                 size = arrayList1.size();
                 summ = d / size;
             }
-        System.out.println("Среднее арифметическое отрицательных "+summ);
+        System.out.println("Среднее арифметическое отрицательных = "+summ);
 
 
     }

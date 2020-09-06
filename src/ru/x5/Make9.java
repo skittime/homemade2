@@ -7,6 +7,7 @@ public class Make9 {
         System.out.print("Массив в обратном порядке: ");
         for (int i = mas.length-1; i >= 0; i--) {
             System.out.print(mas[i] + " ");
-        }
+
+        }System.out.println("");
         }
     }
