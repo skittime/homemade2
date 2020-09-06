@@ -1,7 +1,6 @@
 package ru.x5;
 
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
 public class Make2 {
     public Make2(){

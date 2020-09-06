@@ -20,9 +20,39 @@ public class Main {
 
         switch (number){
             case 1:
-                Make1 result = new Make1();
-                System.out.println(result);
+                new Make1();
                 break;
+            case 2:
+                new Make2();
+                break;
+            case 3:
+                new Make3();
+                break;
+            case 4:
+                new Make4();
+                break;
+            case 5:
+                new Make5();
+                break;
+            case 6:
+                new Make6();
+                break;
+            case 7:
+                new Make7();
+                break;
+            case 8:
+                new Make8();
+                break;
+            case 9:
+                new Make9();
+                break;
+            case 10:
+                new Make10();
+                break;
+
+
+
+
             default:
                 System.out.println("Выбор неверен");
         }
