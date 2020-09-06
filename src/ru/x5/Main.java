@@ -10,22 +10,17 @@ public class Main {
         String  numMen;
         System.out.println("Введите номер задачи которую требуется проверить:");
         do {
-            System.out.println("1. текст");
-            System.out.println("2. текст");
-            System.out.println("3. текст");
-            System.out.println("4. текст");
-            System.out.println("5. текст");
-            System.out.println("6. текст");
-            System.out.println("7. текст");
-            System.out.println("8. текст");
-            System.out.println("9. текст");
+            System.out.println("1. Задача 1");
+            System.out.println("2. Задача 2");
+            System.out.println("3. Задача 3");
+            System.out.println("4. Задача 4");
+            System.out.println("5. Задача 5");
+            System.out.println("6. Задача 6");
+            System.out.println("7. Задача 7");
+            System.out.println("8. Задача 8");
+            System.out.println("9. Задача 9");
+            System.out.println("9. Задача 10");
             num = input.nextInt();
-
-           // try {
-            //    numMen = Integer.parseInt(num);
-           // } catch (NumberFormatException e) {
-              //  System.out.println("Неверный ввод");
-           // }
 
             switch (num) {
                 case 1:
@@ -58,13 +53,10 @@ public class Main {
                 case 10:
                     new Make10();
                     break;
-
-
-                default:
-                    System.out.println("Выбор неверен");
             }
 
 
         } while (num != 0);
+        System.out.println("Выход.....");
     }
 }
