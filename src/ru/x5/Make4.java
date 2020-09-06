@@ -10,11 +10,11 @@ public class Make4 {
 
         if (numbs > 0) {
             numbs++;
-            System.out.println("Ответ " + numbs);
+            System.out.println("Введеное число больше 0 = " + numbs);
         }
         else if (numbs < 0) {
             numbs = numbs - 2;
-            System.out.println("Ответ " + numbs);
+            System.out.println("Введеное число меньше 0 " + numbs);
 
         }
         else {

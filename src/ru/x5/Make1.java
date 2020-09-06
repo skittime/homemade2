@@ -8,7 +8,7 @@ public class Make1 {
         System.out.println("Введите число");
         double mass = numbers.nextDouble();
         int size = (int) mass;
-        System.out.println(size%10);
+        System.out.println("Последнее цифра " + size%10);
         return;
 
 

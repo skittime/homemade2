@@ -57,6 +57,6 @@ public class Main {
 
 
         } while (num != 0);
-        System.out.println("Выход.....");
+        System.out.println("Выходим.....");
     }
 }

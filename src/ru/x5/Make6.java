@@ -10,7 +10,7 @@ public class Make6 {
         if (abs > 0) {
             int pol;
             pol = abs % 2;
-            if (pol== 0) {
+            if (pol == 0) {
                 System.out.println("Введено положительное четное число");
             } else
                 System.out.println("Введено положительное нечетное число");
@@ -18,15 +18,16 @@ public class Make6 {
         }
 
         if (abs < 0) {
-                int pol;
-                pol = abs % 2;
-                if (pol== 0) {
-                    System.out.println("Введено отрицательное четное число");
-                } else
-                    System.out.println("Введено отрицательное нечетное число");
+            int pol;
+            pol = abs % 2;
+            if (pol == 0) {
+                System.out.println("Введено отрицательное четное число");
+            } else
+                System.out.println("Введено отрицательное нечетное число");
 
-        } else {
-            System.out.println("Выведено нулевое число");
+        }
+    if (abs == 0) {
+            System.out.println("Введено нулевое число");
         }
     }
 }
