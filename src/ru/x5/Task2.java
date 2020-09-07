@@ -3,8 +3,7 @@ package ru.x5;
 import java.util.Scanner;
 
 public class Task2 {
-    public void make2() {
-
+    public static void make2() {
         Scanner number = new Scanner(System.in);
         System.out.println("Введите трехзначное число");
         int summ = number.nextInt();

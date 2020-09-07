@@ -3,7 +3,7 @@ package ru.x5;
 import java.util.Scanner;
 
 public class Task7 {
-    public void make7() {
+    public static void make7() {
         System.out.println("Введите код города");
         Scanner num = new Scanner(System.in);
         int call = num.nextInt();

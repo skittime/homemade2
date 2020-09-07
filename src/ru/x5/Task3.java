@@ -3,15 +3,14 @@ package ru.x5;
 import java.util.Scanner;
 
 public class Task3 {
-    public void make3() {
+    public static void make3() {
+
         Scanner num = new Scanner(System.in);
         System.out.println("Введите число");
-        int g = num.nextInt();
-        if (g > 0) {
-            g++;
-            System.out.println("Условие положительное " + g);
-        } else {
-            System.out.println("Условие отрицательное " + g);
-        }
+        int inputNum = num.nextInt();
+             if (inputNum > 0) {
+            inputNum++;
+            System.out.println("Условие положительное " + inputNum);
+        }    else System.out.println("Условие отрицательное " + inputNum);
     }
 }

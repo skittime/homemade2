@@ -3,7 +3,7 @@ package ru.x5;
 import java.util.ArrayList;
 
 public class Task8 {
-    public void make8() {
+    public static void make8() {
         int size = 0, g = 0, d = 0, summ1 = 0;
         double summ = 0;
         int[] array = {1, -10, 5, 6, 45, 23, -45, -34, 0, 32, 56, -1, 2, -2};

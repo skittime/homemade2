@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Task10 {
-    public void make10() {
+    public static void make10() {
 
         int[] mas = {15, 10, 0, -6, -5, 3, 0, -34, 0, 32, 56, 0, 24, -52};
         int[] mas1 = new int[mas.length];

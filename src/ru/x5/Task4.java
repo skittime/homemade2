@@ -3,10 +3,13 @@ package ru.x5;
 import java.util.Scanner;
 
 public class Task4 {
-    public void make4() {
+    public static void make4() {
+    }
+
+    public void make() {
         System.out.println("Введите число: ");
-        Scanner num = new Scanner(System.in);
-        int numbs = num.nextInt();
+        Scanner input = new Scanner(System.in);
+        int numbs = input.nextInt();
 
         if (numbs > 0) {
             numbs++;
