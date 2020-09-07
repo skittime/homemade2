@@ -2,8 +2,8 @@ package ru.x5;
 
 import java.util.Scanner;
 
-public class Make6 {
-    public Make6 () {
+public class Task6 {
+    public void make6() {
         System.out.println("Введите число:");
         Scanner num = new Scanner(System.in);
         int abs = num.nextInt();
@@ -26,7 +26,7 @@ public class Make6 {
                 System.out.println("Введено отрицательное нечетное число");
 
         }
-    if (abs == 0) {
+        if (abs == 0) {
             System.out.println("Введено нулевое число");
         }
     }

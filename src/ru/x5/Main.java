@@ -7,56 +7,40 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num;
-        String  numMen;
-        System.out.println("Введите номер задачи которую требуется проверить:");
+        menuSelect("Введите номер задачи которую требуется проверить:");
         do {
-            System.out.println("1. Задача 1");
-            System.out.println("2. Задача 2");
-            System.out.println("3. Задача 3");
-            System.out.println("4. Задача 4");
-            System.out.println("5. Задача 5");
-            System.out.println("6. Задача 6");
-            System.out.println("7. Задача 7");
-            System.out.println("8. Задача 8");
-            System.out.println("9. Задача 9");
-            System.out.println("9. Задача 10");
+            menuSelect("1. Задача 1");
+            menuSelect("2. Задача 2");
+            menuSelect("3. Задача 3");
+            menuSelect("4. Задача 4");
+            menuSelect("5. Задача 5");
+            menuSelect("6. Задача 6");
+            menuSelect("7. Задача 7");
+            menuSelect("8. Задача 8");
+            menuSelect("9. Задача 9");
+            menuSelect("10. Задача 10");
+            menuSelect("0. Выход 0");
             num = input.nextInt();
 
             switch (num) {
-                case 1:
-                    new Make1();
-                    break;
-                case 2:
-                    new Make2();
-                    break;
-                case 3:
-                    new Make3();
-                    break;
-                case 4:
-                    new Make4();
-                    break;
-                case 5:
-                    new Make5();
-                    break;
-                case 6:
-                    new Make6();
-                    break;
-                case 7:
-                    new Make7();
-                    break;
-                case 8:
-                    new Make8();
-                    break;
-                case 9:
-                    new Make9();
-                    break;
-                case 10:
-                    new Make10();
-                    break;
+                case 1 -> new Task1();
+                case 2 -> new Task2();
+                case 3 -> new Task3();
+                case 4 -> new Task4();
+                case 5 -> new Task5();
+                case 6 -> new Task6();
+                case 7 -> new Task7();
+                case 8 -> new Task8();
+                case 9 -> new Task9();
+                case 10 -> new Task10();
             }
 
 
         } while (num != 0);
-        System.out.println("Выходим.....");
+        menuSelect("Выходим.....");
+    }
+
+    private static void menuSelect(String s) {
+        System.out.println(s);
     }
 }

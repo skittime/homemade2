@@ -1,11 +1,10 @@
 package ru.x5;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Make5 {
-    public Make5 () {
+public class Task5 {
+    public void make5() {
         System.out.println("Ввежите 3 целых числа");
         Scanner num = new Scanner(System.in);
         int[] mas = new int[3];
@@ -14,8 +13,8 @@ public class Make5 {
         mas[2] = num.nextInt();
         Arrays.sort(mas);
 
-            System.out.println("Минимальное значение - " + mas[0]);
+        System.out.println("Минимальное значение - " + mas[0]);
 
 
     }
- }
+}
