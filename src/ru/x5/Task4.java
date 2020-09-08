@@ -9,18 +9,18 @@ public class Task4 {
     public void make() {
         System.out.println("Введите число: ");
         Scanner input = new Scanner(System.in);
-        int numbs = input.nextInt();
+        int number = input.nextInt();
 
-        if (numbs > 0) {
-            numbs++;
-            System.out.println("Введеное число больше 0 = " + numbs);
-        } else if (numbs < 0) {
-            numbs = numbs - 2;
-            System.out.println("Введеное число меньше 0 " + numbs);
+        if (number > 0) {
+            number++;
+            System.out.println("Введеное число больше 0 = " + number);
+        } else if (number < 0) {
+            number = number - 2;
+            System.out.println("Введеное число меньше 0 " + number);
 
         } else {
-            numbs = 10;
-            System.out.println("Ответ " + numbs);
+            number = 10;
+            System.out.println("Ответ " + number);
         }
     }
 }
