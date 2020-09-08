@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Task4 {
     public static void make4() {
-    }
-
-    public void make() {
         System.out.println("Введите число: ");
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
