@@ -13,7 +13,7 @@ public class Task10 {
                 for (int j = i + 1; j < array.length; j++) zerosEnd(j,i);
             }
         }
-        System.out.print(Arrays.toString(array) + "; ");
+        System.out.print(" Отсортрованый массив = " +  Arrays.toString(array) + "; ");
         System.out.println(" ");
     }
 
