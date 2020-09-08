@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Task10 {
 
     static int[] array = {15, 10, 0, -6, -5, 3, 0, -34, 0, 32, 56, 0, 24, -52};
-    static int temp, i, j;
+    static int temp;
 
     public static void make10() {
         for (int i = 0; i < array.length; i++) {
@@ -14,7 +14,7 @@ public class Task10 {
             }
         }
         System.out.print(Arrays.toString(array) + "; ");
-        System.out.println("");
+        System.out.println(" ");
     }
 
 
