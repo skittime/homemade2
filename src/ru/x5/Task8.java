@@ -3,21 +3,21 @@ package ru.x5;
 public class Task8 {
 
 
-    public static void make8() {
-        Task8.maximumOfArray();
-        Task8.sumOfPositive();
-        Task8.evenOfNegative();
-        Task8.numberOfPositive();
-        Task8.averageNegative();
+    Task8() {
+        maximumOfArray();
+        sumOfPositive();
+        evenOfNegative();
+        numberOfPositive();
+        averageNegative();
 
     }
 
-    static int numOfPos = 0, sumNegative = 0, numNegative = 0, maximum = 0;
-    static double sumOfPos = 0, arrNegated = 0, average = 0;
-    static int[] array = {1, -10, 5, 6, 45, 23, -45, -34, 0, 32, 56, -1, 2, -2};
+    int numOfPos = 0, sumNegative = 0, numNegative = 0, maximum = 0;
+    double sumOfPos = 0, arrNegated = 0, average = 0;
+    int[] array = {1, -10, 5, 6, 45, 23, -45, -34, 0, 32, 56, -1, 2, -2};
 
 
-    public static void maximumOfArray() {
+    public void maximumOfArray() {
         for (int j : array)
             if (maximum < j) {
                 maximum = j;
@@ -25,7 +25,7 @@ public class Task8 {
         System.out.println("Максимум = " + maximum);
     }
 
-    public static void sumOfPositive() {
+    public void sumOfPositive() {
 
         for (int j : array)
             if (j > 0) {
@@ -34,7 +34,7 @@ public class Task8 {
         System.out.println("Сумма положительных = " + sumOfPos);
     }
 
-    public static void evenOfNegative() {
+    public void evenOfNegative() {
         for (int j : array) {
             if (j < 0) {
                 int even;
@@ -47,9 +47,9 @@ public class Task8 {
         System.out.println("Сумма четных отрицательных = " + sumNegative);
     }
 
-    public static void numberOfPositive() {
-        for (int j = 0; j < array.length; j++) {
-            if (array[j] > 0) {
+    public void numberOfPositive() {
+        for (int i : array) {
+            if (i > 0) {
                 numOfPos++;
             }
         }
@@ -57,11 +57,11 @@ public class Task8 {
 
     }
 
-    public static void averageNegative() {
-        for (int j = 0; j < array.length; j++)
-            if (array[j] < 0) {
+    public void averageNegative() {
+        for (int i : array)
+            if (i < 0) {
                 numNegative++;
-                arrNegated = arrNegated + array[j];
+                arrNegated = arrNegated + i;
             }
         average = arrNegated / numNegative;
         System.out.println("Среднее арифметическое отрицательных = " + average);
