@@ -23,16 +23,16 @@ public class Main {
             num = input.nextInt();
 
             switch (num) {
-                case 1 -> Task1.make1();
-                case 2 -> Task2.make2();
-                case 3 -> Task3.make3();
-                case 4 -> Task4.make4();
-                case 5 -> Task5.make5();
-                case 6 -> Task6.make6();
-                case 7 -> Task7.make7();
-                case 8 -> Task8.make8();
-                case 9 -> Task9.make9();
-                case 10 -> Task10.make10();
+                case 1 -> new Task1();
+                case 2 -> new Task2();
+                case 3 -> new Task3();
+                case 4 -> new Task4();
+                case 5 -> new Task5();
+                case 6 -> new Task6();
+                case 7 -> new Task7();
+                case 8 -> new Task8();
+                case 9 -> new Task9();
+                case 10 -> new Task10();
             }
 
 
