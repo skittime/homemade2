@@ -35,7 +35,7 @@ public class Task6 {
             System.out.print("отрицательное");
         } else
             System.out.print("положительное");
-        System.out.println("");
+        System.out.println(" ");
 
     }
 }
